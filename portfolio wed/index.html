@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nwachukwu Joseph - Full-Stack Developer Portfolio">
+    <title>Nwachukwu Joseph | Full-Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">NJ<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="contact-link">Contact Me ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HERO / HOME SECTION -->
+    <section class="hero container" id="home">
+
+        <div class="hero-content">
+
+            <p class="availability">
+                <span class="status-dot"></span>
+                OPEN TO OPPORTUNITIES
+            </p>
+
+            <p class="eyebrow">
+                FULL-STACK DEVELOPER
+            </p>
+
+            <h1>
+                I build digital<br>
+                experiences that <span>work.</span>
+            </h1>
+
+            <p class="hero-description">
+                Hello, I'm <strong>Nwachukwu Jahbuike Joseph</strong>, a full-stack
+                developer with 2 years of experience building responsive
+                websites and practical web applications using modern
+                frontend and backend technologies.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work ↘
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Contact Me ↗
+                </a>
+            </div>
+
+            <div class="hero-meta">
+                <span>01 — Frontend</span>
+                <span>02 — Backend</span>
+                <span>03 — Problem Solving</span>
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE PHOTO -->
+        <div class="hero-image">
+
+            <div class="photo-frame">
+
+                <!-- Put your photo in this folder and name it profile.jpg -->
+                <img
+                    src="profile.jpg"
+                    alt="Portrait of Nwachukwu Joseph"
+                    class="profile-photo"
+                    onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';"
+                >
+
+                <div id="photoPlaceholder" class="photo-placeholder">
+                    <span>＋</span>
+                    <h3>Add Your Photo</h3>
+                    <p>Save your image as profile.jpg</p>
+                </div>
+
+                <div class="photo-caption">
+                    <div class="caption-logo">NJ.</div>
+
+                    <div>
+                        <strong>Nwachukwu Joseph</strong>
+                        <p>Full-Stack Developer</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="floating-card">
+                <span>✳</span>
+                <div>
+                    <strong>Ideas to Applications</strong>
+                    <p>Frontend + Backend</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TECHNOLOGY BAR -->
+    <section class="tech-bar">
+        <div class="tech-list">
+            <span>JAVASCRIPT</span>
+            <span>✳</span>
+            <span>PYTHON</span>
+            <span>✳</span>
+            <span>REACT.JS</span>
+            <span>✳</span>
+            <span>NEXT.JS</span>
+            <span>✳</span>
+            <span>DJANGO</span>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="section container" id="about">
+
+        <div class="section-heading">
+            <p class="eyebrow">01 / ABOUT ME</p>
+
+            <h2>
+                Curious by nature.<br>
+                <span>Developer by choice.</span>
+            </h2>
+        </div>
+
+        <div class="about-content">
+
+            <h3>
+                I enjoy building websites and applications that make
+                everyday tasks simpler.
+            </h3>
+
+            <p>
+                I am a full-stack developer with approximately two years
+                of development experience. I work across frontend and
+                backend development to create responsive user experiences
+                and useful web applications.
+            </p>
+
+            <p>
+                During my internship at Brand Drive, I helped maintain
+                the company's website and update website content and
+                page elements as needed. This experience helped me
+                strengthen my practical web development skills.
+            </p>
+
+            <p>
+                I have also worked on web projects for an NGO, a clothing
+                brand, and a shipment website. I enjoy solving problems,
+                learning new technologies, and working on projects that
+                deliver value to users.
+            </p>
+
+            <a href="#contact" class="text-link">
+                Let's work together ↗
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section section" id="skills">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">02 / MY TOOLKIT</p>
+
+                <h2>
+                    Technologies I use<br>
+                    <span>to bring ideas to life.</span>
+                </h2>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon javascript">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive interfaces and application logic.</p>
+                    <span class="skill-type">PROGRAMMING LANGUAGE</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon python">Py</div>
+                    <h3>Python</h3>
+                    <p>Backend logic, scripting, and application development.</p>
+                    <span class="skill-type">PROGRAMMING LANGUAGE</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon react">⚛</div>
+                    <h3>React.js</h3>
+                    <p>Reusable components and responsive interfaces.</p>
+                    <span class="skill-type">FRONTEND</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon next">N</div>
+                    <h3>Next.js</h3>
+                    <p>Modern React applications and structured web experiences.</p>
+                    <span class="skill-type">FRAMEWORK</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon django">dj</div>
+                    <h3>Django</h3>
+                    <p>Backend development and data-driven web applications.</p>
+                    <span class="skill-type">BACKEND</span>
+                </div>
+
+                <div class="skill-card skill-note">
+                    <div class="skill-icon growth">↗</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Always improving my skills and exploring better ways to build.</p>
+                    <span class="skill-type">PROFESSIONAL GROWTH</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section container" id="experience">
+
+        <div class="section-heading">
+            <p class="eyebrow">03 / EXPERIENCE</p>
+
+            <h2>
+                Learning by doing.<br>
+                <span>Growing with every build.</span>
+            </h2>
+        </div>
+
+
+        <div class="experience-list">
+
+            <article class="experience-card">
+
+                <p class="eyebrow">INTERNSHIP</p>
+
+                <h3>Web Development Intern</h3>
+
+                <h4>Brand Drive</h4>
+
+                <p class="experience-description">
+                    Supported the maintenance and improvement of the
+                    company's website during my internship.
+                </p>
+
+                <ul>
+                    <li>
+                        Helped maintain the company website and its pages.
+                    </li>
+
+                    <li>
+                        Updated website content and page elements.
+                    </li>
+
+                    <li>
+                        Assisted with ongoing website improvements.
+                    </li>
+
+                    <li>
+                        Gained practical experience working on a live website.
+                    </li>
+                </ul>
+
+                <div class="tag-list">
+                    <span>Website Maintenance</span>
+                    <span>Content Updates</span>
+                    <span>Web Development</span>
+                </div>
+
+            </article>
+
+
+            <article class="experience-card">
+
+                <p class="eyebrow">PROJECT EXPERIENCE</p>
+
+                <h3>Independent Web Projects</h3>
+
+                <h4>NGO · Clothing Brand · Shipment Website</h4>
+
+                <p class="experience-description">
+                    Built web projects for different audiences, applying
+                    my frontend and backend knowledge to develop useful
+                    website experiences.
+                </p>
+
+                <div class="tag-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Django</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section section" id="projects">
+
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="eyebrow">04 / SELECTED WORK</p>
+
+                <h2>
+                    Projects with<br>
+                    <span>a purpose.</span>
+                </h2>
+
+                <p class="projects-intro">
+                    Here are some of the types of projects I have worked on.
+                    Add your real screenshots, source code links, and live
+                    demos to make each project stand out.
+                </p>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card">
+
+                    <div class="project-image ngo-project">
+                        <span class="project-number">01</span>
+                        <div class="project-illustration">
+                            <span>CARE+</span>
+                            <div class="mock-line"></div>
+                            <div class="mock-line short"></div>
+                            <div class="mock-button"></div>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">COMMUNITY / IMPACT</p>
+
+                        <h3>NGO Website</h3>
+
+                        <p>
+                            A website project for a non-governmental
+                            organisation, designed to present its mission,
+                            share information, and help visitors understand
+                            its work.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <!-- Replace # with your real project URL -->
+                        <a href="#contact" class="project-link">
+                            Ask me about this project ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project-card">
+
+                    <div class="project-image clothing-project">
+                        <span class="project-number">02</span>
+                        <div class="fashion-design">
+                            <small>COLLECTION 01</small>
+                            <h3>STYLE<br>YOUR WAY.</h3>
+                            <p>FASHION / STUDIO</p>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">FASHION / COMMERCE</p>
+
+                        <h3>Clothing Brand Website</h3>
+
+                        <p>
+                            A fashion website project focused on presenting
+                            a clothing brand and giving visitors a clean,
+                            user-friendly browsing experience.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask me about this project ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+                <article class="project-card">
+
+                    <div class="project-image shipment-project">
+                        <span class="project-number">03</span>
+
+                        <div class="shipment-box">
+                            <span>↗</span>
+                        </div>
+
+                        <div class="shipment-status">
+                            <small>SHIPMENT STATUS</small>
+                            <strong>● In transit</strong>
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-category">LOGISTICS / DELIVERY</p>
+
+                        <h3>Shipment Website</h3>
+
+                        <p>
+                            A shipment and delivery website project focused
+                            on organising delivery information and improving
+                            the customer shipment experience.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#contact" class="project-link">
+                            Ask me about this project ↗
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <p class="project-disclaimer">
+                Remember to update these project descriptions to match the
+                features you actually developed. Only add technologies and
+                functionality that you used.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section section container" id="contact">
+
+        <div class="contact-panel">
+
+            <p class="eyebrow">05 / LET'S CONNECT</p>
+
+            <h2>
+                Have a role or project<br>
+                in mind? <span>Let's talk.</span>
+            </h2>
+
+            <p class="contact-description">
+                I am open to full-stack development opportunities,
+                collaborations, and interesting projects. I would be
+                glad to hear from you.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a
+                    href="mailto:nwachukwujahbuikejoseph@gmail.com"
+                    class="btn btn-light">
+                    Email Me ↗
+                </a>
+
+                <a
+                    href="tel:+2349013065253"
+                    class="btn btn-outline">
+                    Call Me ↗
+                </a>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <div>
+                    <span>EMAIL</span>
+                    <a href="mailto:nwachukwujahbuikejoseph@gmail.com">
+                        nwachukwujahbuikejoseph@gmail.com
+                    </a>
+                </div>
+
+                <div>
+                    <span>PHONE</span>
+                    <a href="tel:+2349013065253">
+                        +234 901 306 5253
+                    </a>
+                </div>
+
+                <div>
+                    <span>LOCATION</span>
+                    <p>Nigeria</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">NJ<span>.</span></a>
+
+            <p>
+                Designed and built by Nwachukwu Joseph.
+            </p>
+
+            <a href="#home" class="back-to-top">
+                Back to top ↑
+            </a>
+
+            <p class="copyright">
+                &copy; <span id="year"></span> Nwachukwu Joseph
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
